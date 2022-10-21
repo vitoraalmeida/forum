@@ -1,0 +1,5 @@
+{
+    "require": {
+        "synfony/synfony": "2.8.15"
+    }
+}
