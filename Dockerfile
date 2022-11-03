@@ -13,6 +13,6 @@ USER myuserapp
 WORKDIR /myuserapp
 COPY forum-0.0.1-SNAPSHOT.jar .
 
-ENTRYPOINT java -jar /myuserapp/forum-0.0.1-SNAPSHOT.jar
+ENTRYPOINT /bin/bash 
 
 ADD --chown=65536:65536 *.jar /myuserapp/forum-0.0.1-SNAPSHOT.jar
